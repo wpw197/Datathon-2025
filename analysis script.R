@@ -16,7 +16,7 @@
 ## load up the packages we will need: 
 
 packages <- c("tidyverse", "versions", "pmsampsize", "car", "glm2", "readr",
-              "caret", "vip", "rsample")
+              "caret", "vip", "rsample", "ranger", "h2o", "randomForest")
 install.packages(setdiff(packages, rownames(installed.packages())))
 lapply(packages, library, character.only = TRUE, quietly = TRUE)  
 rm(packages)
@@ -202,12 +202,12 @@ my_dta <- read_csv("Merged data set patient level.csv")
 # splitting the dataset for training and testing --------------------------
 my_dta<-my_dta %>% 
   filter(!is.na(Metastasis))
+
+my_dta$Metastasis<-factor(my_dta$Metastasis)
 set.seed(123)  # for reproducibility
 churn_split <- initial_split(my_dta, prop = .7, strata = "Metastasis")
 churn_train <- training(churn_split)
 churn_test  <- testing(churn_split)
-
-my_dta$Metastasis<-factor(my_dta$Metastasis, levels=c(0,1))
 
 # running model -----------------------------------------------------------
 #model1 <- glm(
@@ -300,5 +300,40 @@ confusionMatrix(
 
 vif(Model1)
 
+# random forest -----------------------------------------------------------
+## requires a complete data set 
 
+complete_train<-churn_train%>% 
+  filter(!is.na(smoking_status)&!is.na(Age)&!is.na(histology)&!is.na(ethnicity))
+
+train_set1<-churn_train%>% 
+  filter(!is.na(Age)&!is.na(histology)&!is.na(ethnicity))
+
+rf_model1 <- randomForest(Metastasis ~ smoking_status+histology+Age+study+ethnicity, data = complete_train,
+                          importance = TRUE, ntree = 500)
+
+print(rf_model1)
+
+
+rf_model2 <- randomForest(Metastasis ~ smoking_status+histology+Age+study+ethnicity+Overall_survival_months, 
+                          data = complete_train,
+                         importance = TRUE, ntree = 500)
+
+print(rf_model2)
+
+## overall survival helps - obviously we cant use this as its retrospective. 
+## perhaps would be good if we had info on stage?
+
+predictions1 <- predict(rf_model1, newdata = churn_test)
+
+# Confusion Matrix
+conf_matrix1 <- confusionMatrix(predictions1, churn_test$Metastasis)
+print(conf_matrix1)
+
+
+predictions2 <- predict(rf_model2, newdata = churn_test)
+
+# Confusion Matrix
+conf_matrix2 <- confusionMatrix(predictions2, churn_test$Metastasis)
+print(conf_matrix2)
 
