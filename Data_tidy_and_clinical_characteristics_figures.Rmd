@@ -1,0 +1,344 @@
+---
+title: "Datathon Team 18"
+author: "Merilyn Albuquerque"
+date: "2025-01-21"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+#Datathon Team 18 - Script for data tidy and figures for clinical characteristics
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(warning = FALSE, message = FALSE) 
+```
+
+## Merge TRACERx NSCLC dataset with MSK NSCLC
+
+Merge and tidy up to create one neat dataframe for both studies
+
+1. Tidy up MSK data
+2. Tidy up metastatic sites from multiple columns into one column ('Metastatic.Site') in Supplementary_Table14 document
+3. Add corresponding columns to TRACERx data to match MSK (i.e. 'Study.ID', 'Cancer.Type', 'Histology')
+4. Subset relevant columns in TRACERx, rename column names to match MSK
+5. Merge TRACERx with MSK data, save file
+6. Plot tables and graphs of each dataset separately and together
+
+Things to note:
+
+1. MSK data has duplicate patient IDs for each sample ID (multiple samples per patient) - this needs to be addressed when looking at clinical characteristics and when performing regression modelling
+2. Conversely, TRACERx data has multiple met sites for one patient ID - but this can be easily tidied for better plotting
+3. Overall survival in TRACERx data did not mention if it was in days (we assumed and calculated time in months to match MSK data)
+4. Smoking status in MSK is TRUE (Smoker and Ex-Smoker) and FALSE (Never Smoked). Labels were changed in both datasets to help group patients into these two categories.
+
+
+```{r data}
+library(dplyr)
+library(tidyr)
+
+#Load all data - TRACERx dataset, MSK dataset, Supplementary Table 14 file
+all_patients_df <- readRDS("figurecode/data/20221109_TRACERx421_all_patient_df.rds")
+msk_table_raw <- read.csv("MSK_NSCLC_2022_raw.csv")
+supp_t14 <- readxl::read_excel("Supp_Table_14.xlsx")
+
+
+#Tidy data in MSK 
+msk_table <- msk_table_raw[,c("Study.ID", "Patient.ID", "Sample.Type", "Cancer.Type", "Cancer.Type.Detailed", 
+                                  "Oncotree.Code", "Overall.Survival..Months.", "Sex", "Smoking.Status", "Patient.Current.Age", 
+                                  "Ethnicity.Category", "Histology", "Metastatic.Site")]
+msk_table <- msk_table %>% mutate(Metastatic.Site = ifelse(Metastatic.Site == "Lymph node", "Lymph Node", Metastatic.Site))
+msk_table <- msk_table %>% mutate(Smoking.Status = ifelse(Smoking.Status == "True", "Smoker/Ex-Smoker", "Never Smoked"))
+colnames(msk_table) <- c("Study.ID", "Patient.ID", "Sample.Type", "Cancer.Type", "Cancer.Type.Detailed", 
+                                  "Oncotree.Code", "Overall.Survival..Months.", "Sex", "Smoking.Status", "Age", 
+                                  "Ethnicity", "Histology", "Metastatic.Site")
+
+#Adjust met site info from Supplementary Table 14 file, merge with TRACERx file
+supp_t14 <- supp_t14[-c(1:4),-c(2,4)]
+colnames(supp_t14) <- supp_t14[1,]
+supp_t14 <- supp_t14[-1,]
+names(supp_t14)[names(supp_t14) == "PublicationID"] <- "cruk_id"
+supp_t14 <- supp_t14 %>%
+  mutate(across(-cruk_id, as.character))
+supp_t14 <- supp_t14 %>%
+  pivot_longer(-c(cruk_id), names_to = "Condition", values_to = "Value") %>% 
+  filter(Value == "TRUE") %>%  
+  group_by(cruk_id) %>%
+  summarize(Combined_Conditions = paste(Condition, collapse = ", "), .groups = "drop")
+colnames(supp_t14) <- c("cruk_id", "Metastatic.Site")
+tracex_met_pts_df <- left_join(all_patients_df, supp_t14, by = "cruk_id")
+
+#Tidy data in TRACERx (general tidy and adding columns to match MSK data for better merged df)
+tracex_met_pts_df <- tracex_met_pts_df %>% 
+  mutate(Relapse_cat_new = case_when(Relapse_cat_new == "No rec" ~ "No metastasis", TRUE ~ as.character(Relapse_cat_new)))
+tracex_met_pts_df <- tracex_met_pts_df %>% 
+  mutate(os_time = os_time/30.44)
+tracex_met_pts_df$Study.ID <- "nsclc_TRACERx_2023"
+tracex_met_pts_df$Cancer.Type <- "Non-Small Cell Lung Cancer"
+tracex_met_pts_df$histology_multi_full_genomically.confirmed <- gsub("x2|x3", "", tracex_met_pts_df$histology_multi_full_genomically.confirmed)
+tracex_met_pts_df <- tracex_met_pts_df %>% 
+  mutate(Histology = case_when(grepl("LUAD", histology_multi_full_genomically.confirmed) ~ "Adenocarcinoma",
+                               grepl("LUSC", histology_multi_full_genomically.confirmed) ~ "Squamous Cell Carcinoma",
+                               TRUE ~ histology_multi_full_genomically.confirmed))
+tracex_met_pts_df <- tracex_met_pts_df %>%
+  mutate(Sample.Type = case_when(grepl("Intrathoracic", Relapse_cat_new) ~ "Metastasis",
+                                 grepl("Extrathoracic", Relapse_cat_new) ~ "Metastasis",
+                                 grepl("Intra & Extra", Relapse_cat_new) ~ "Metastasis",
+                                 grepl("Unknown Site", Relapse_cat_new) ~ "Unknown",
+                                 TRUE ~ Relapse_cat_new))
+tracex_met_pts_df <- tracex_met_pts_df %>% 
+  mutate(smoking_status_merged = case_when(grepl("Smoker", smoking_status_merged) ~ "Smoker/Ex-Smoker",
+                                    grepl("Ex-Smoker", smoking_status_merged) ~ "Smoker/Ex-Smoker",
+                                    TRUE ~ smoking_status_merged))
+
+
+tracex_met_pts_df <- tracex_met_pts_df[,c("Study.ID", "Cancer.Type", "cruk_id", 
+                                          "age", "sex", "ethnicity",
+                                          "os_time", "smoking_status_merged", "histology_multi_full_genomically.confirmed", 
+                                          "Histology", "Relapse_cat_new", "Metastatic.Site", "Sample.Type")]
+colnames(tracex_met_pts_df) <- c("Study.ID", "Cancer.Type", "Patient.ID", 
+                                 "Age", "Sex", "Ethnicity", 
+                                 "Overall.Survival..Months.", "Smoking.Status", "Oncotree.Code", 
+                                 "Histology", "Metastatic.Category", "Metastatic.Site", "Sample.Type")
+
+#Merge MSK dataset with TRACERx
+MSK_TRACERx_merged <- full_join(tracex_met_pts_df, msk_table, by = c("Study.ID", "Patient.ID", "Cancer.Type", 
+                                                                     "Oncotree.Code", "Overall.Survival..Months.", "Sex", 
+                                                                     "Smoking.Status", "Histology", "Metastatic.Site",
+                                                                     "Sample.Type", "Age"))
+head(MSK_TRACERx_merged, 5)
+tail(MSK_TRACERx_merged, 5)
+
+unique_patients <- unique(MSK_TRACERx_merged$Patient.ID) #there are 1548 unique patient IDs
+
+#write.csv(MSK_TRACERx_merged, "MSK_TRACERx_merged.csv", row.names = FALSE)
+
+```
+
+## TRACERx Clinical Characteristics
+
+```{r table.tracerx}
+library(tableone)
+
+myVars <- c("Age", "Sex", "Ethnicity", "Overall.Survival..Months.", "Smoking.Status", "Histology", "Metastatic.Category")
+catVars <- c("Sex", "Ethnicity", "Smoking.Status", "Histology", "Metastatic.Category")
+table1 <- CreateTableOne(vars = myVars, data = tracex_met_pts_df, factorVars = catVars)
+table1
+
+```
+
+```{r graph.tracerx}
+library(ggplot2)
+
+#Calculate percentages for each met site
+pie_data_tracerx <- tracex_met_pts_df %>%
+  filter(!is.na(Metastatic.Site)) %>% 
+  count(Metastatic.Site, name = "Count")  
+
+#Separate multiple met sites into individual sites for better graph
+pie_data_tracerx <- pie_data_tracerx %>%
+  mutate(Metastatic.Site = strsplit(Metastatic.Site, ", ")) %>% 
+  unnest(Metastatic.Site) %>%                                 
+  group_by(Metastatic.Site) %>% 
+  summarise(Count = sum(Count)) %>% 
+  mutate(Percentage = Count / sum(Count) * 100) %>% 
+  arrange(desc(Percentage))
+
+
+#Plot pie chart
+ggplot(pie_data_tracerx, aes(x = "", y = Percentage, fill = Metastatic.Site)) +
+  geom_bar(stat = "identity", width = 1) + 
+  coord_polar("y") + 
+  theme_void() + 
+  labs(title = "Distribution of Metastatic Sites in TRACERx Data", fill = "Metastatic Site") +
+  theme(plot.title = element_text(hjust = 0.5)) +
+  scale_fill_brewer(palette = "Paired") + 
+  geom_text(aes(label = paste0(round(Percentage, 0), "%")), 
+            position = position_stack(vjust = 0.5), 
+            color = "black", size = 4)
+
+
+```
+
+## MSK Clinical Characteristics
+
+```{r table.msk}
+myVars2 <- c("Age", "Sex", "Ethnicity", "Overall.Survival..Months.", "Smoking.Status", "Histology", "Sample.Type")
+catVars2 <- c("Sex", "Ethnicity", "Smoking.Status", "Histology", "Sample.Type")
+table2 <- CreateTableOne(vars = myVars2, data = msk_table, factorVars = catVars2)
+table2
+
+```
+
+```{r graph.msk}
+library(RColorBrewer)
+
+#Calculate percentages for each met site
+pie_data_msk <- msk_table %>%
+  filter(!is.na(Metastatic.Site)) %>% 
+  count(Metastatic.Site, name = "Count") %>% 
+  mutate(Percentage = Count / sum(Count) * 100) %>% 
+  arrange(desc(Percentage))
+
+#Plot pie chart
+#ggplot(pie_data_msk, aes(x = "", y = Percentage, fill = Metastatic.Site)) +
+#  geom_bar(stat = "identity", width = 1) + 
+#  coord_polar("y") + 
+#  theme(plot.title = element_text(hjust = 0.5)) +
+#  theme_void() + 
+#  labs(title = "Distribution of Metastatic Sites in MSK Data", fill = "Metastatic Site") 
+
+
+#Too many met sites - plot top 20 with remaining labelled as "Other"
+top_20_msk <- pie_data_msk %>%
+  arrange(desc(Percentage)) %>%
+  mutate(Metastatic.Site = ifelse(row_number() > 20, "Other", Metastatic.Site)) %>%
+  group_by(Metastatic.Site) %>%
+  summarise(Count = sum(Count), Percentage = sum(Percentage)) 
+
+set3_colors <- brewer.pal(12, "Set3")
+additional_colours <- c("#FF6347", "#20B2AA", "#FFD700", "#8A2BE2", "#FF4500", "#2E8B57", "#DA70D6", "#F4A460", "#D2691E")
+colours <- c(set3_colors, additional_colours)
+
+ggplot(top_20_msk, aes(x = "", y = Percentage, fill = Metastatic.Site)) +
+  geom_bar(stat = "identity", width = 1) + 
+  coord_polar("y") + 
+  theme_void() + 
+  labs(title = "Distribution of Metastatic Sites in MSK Data", fill = "Metastatic Site") +
+  theme(plot.title = element_text(hjust = 0.5)) +
+  scale_fill_manual(values = colours) +
+  geom_text(aes(label = paste0(round(Percentage, 0), "%")), 
+            position = position_stack(vjust = 0.5), 
+            color = "black", size = 4)
+
+
+```
+
+
+
+## Merged (TRACERx & MSK) Clinical Characteristics
+
+```{r table.merged}
+#Initial table for all sample types we have across entire cohort
+myVar3.1 <- c("Sample.Type")
+catVars3.1 <- c("Sample.Type")
+table3.1 <- CreateTableOne(vars = myVar3.1, data = MSK_TRACERx_merged, factorVars = catVars3.1)
+table3.1 #3042 samples in total across 1548 patients
+
+#Need to adjust for duplicate patient rows in MSK data to get info for remaining clinical columns
+msk_table_no_pts_dups <- msk_table
+msk_table_no_pts_dups[is.na(msk_table_no_pts_dups)] <- "Unknown"
+msk_table_no_pts_dups <- distinct(msk_table, Patient.ID, .keep_all = TRUE)
+msk_table_no_pts_dups$Age <- as.integer(msk_table_no_pts_dups$Age)
+
+MSK_TRACERx_merged_no_pts_dups <- full_join(tracex_met_pts_df, msk_table_no_pts_dups, by = c("Study.ID", "Patient.ID", "Cancer.Type", 
+                                                                     "Oncotree.Code", "Overall.Survival..Months.", "Sex", 
+                                                                     "Smoking.Status", "Histology", "Metastatic.Site",
+                                                                     "Sample.Type", "Age"))
+unique_patients <- unique(MSK_TRACERx_merged_no_pts_dups$Patient.ID) #there are 1548 unique patient IDs
+
+myVars3.2 <- c("Age", "Sex", "Ethnicity", "Overall.Survival..Months.", "Smoking.Status", "Histology")
+catVars3.2 <- c("Sex", "Ethnicity", "Smoking.Status", "Histology")
+table3.2 <- CreateTableOne(vars = myVars3.2, data = MSK_TRACERx_merged_no_pts_dups, factorVars = catVars3.2)
+table3.2
+
+
+```
+
+```{r graph.merged}
+
+#Calculate percentages for each met site
+pie_data_merged <- MSK_TRACERx_merged %>%
+  filter(!is.na(Metastatic.Site)) %>% 
+  count(Metastatic.Site, name = "Count")  
+
+#Separate multiple met sites for TRACERx into individual sites for better graph
+pie_data_merged <- pie_data_merged %>%
+  mutate(Metastatic.Site = strsplit(Metastatic.Site, ", ")) %>% 
+  unnest(Metastatic.Site) %>%                                 
+  group_by(Metastatic.Site) %>% 
+  summarise(Count = sum(Count)) %>% 
+  mutate(Percentage = Count / sum(Count) * 100) %>% 
+  arrange(desc(Percentage))
+
+#Too many met sites - plot top 20 with remaining labelled as "Other"
+top_20_merged <- pie_data_merged %>%
+  arrange(desc(Percentage)) %>%
+  mutate(Metastatic.Site = ifelse(row_number() > 20, "Other", Metastatic.Site)) %>%
+  group_by(Metastatic.Site) %>%
+  summarise(Count = sum(Count), Percentage = sum(Percentage)) %>% ungroup
+
+
+set3_colors <- brewer.pal(12, "Set3")
+additional_colours <- c("#FF6347", "#20B2AA", "#FFD700", "#8A2BE2", "#FF4500", "#2E8B57", "#DA70D6", "#F4A460", "#D2691E")
+colours <- c(set3_colors, additional_colours)
+
+ggplot(top_20_merged, aes(x = "", y = Percentage, fill = Metastatic.Site)) +
+  geom_bar(stat = "identity", width = 1) + 
+  coord_polar("y") + 
+  theme_void() + 
+  labs(title = "Distribution of Metastatic Sites in Merged Data", fill = "Metastatic Site") +
+  theme(plot.title = element_text(hjust = 0.5)) +
+  scale_fill_manual(values = colours, guide = guide_legend(ncol = 2)) +
+  geom_text(aes(label = paste0(round(Percentage, 0), "%")), 
+            position = position_stack(vjust = 0.5), 
+            color = "black", size = 4)
+
+
+```
+
+
+```{r survival}
+library(survival)
+library(survminer)
+library(patchwork)
+
+surv_obj <- Surv(time = MSK_TRACERx_merged$Overall.Survival..Months.)
+fit <- survfit(surv_obj ~ 1, data = MSK_TRACERx_merged)
+p1 <- ggsurvplot(
+  fit,
+  ggtheme = theme_minimal(),
+  title = "Kaplan-Meier Curve in Merged Dataset",
+  xlab = "Time (Months)",
+  ylab = "Survival Probability",
+  legend = "none")
+
+fit2 <- survfit(Surv(Overall.Survival..Months.) ~ Metastatic.Category, data = MSK_TRACERx_merged)
+p2 <- ggsurvplot(
+  fit2,
+  data = MSK_TRACERx_merged,
+  ggtheme = theme_minimal(),
+  title = "Kaplan-Meier Curve by Metastatic Category in TRACERx Data",
+  xlab = "Time (Months)",
+  ylab = "Survival Probability",
+  legend = "right")
+
+fit3 <- survfit(Surv(Overall.Survival..Months.) ~ Sample.Type, data = MSK_TRACERx_merged) 
+p3 <- ggsurvplot(
+  fit3,
+  data = MSK_TRACERx_merged,
+  ggtheme = theme_minimal(),
+  title = "Kaplan-Meier Curve by Sample Type in Merged Data",
+  xlab = "Time (Months)",
+  ylab = "Survival Probability",
+  legend = "right")
+
+fit4 <- survfit(Surv(Overall.Survival..Months.) ~ Smoking.Status, data = MSK_TRACERx_merged)
+p4 <- ggsurvplot(
+  fit4,
+  data = MSK_TRACERx_merged,
+  ggtheme = theme_minimal(),
+  title = "Kaplan-Meier Curve by Smoking Status in Merged Data",
+  xlab = "Time (Months)",
+  ylab = "Survival Probability",
+  legend = "right")
+
+p1$plot
+p2$plot
+p3$plot
+p4$plot
+
+#ggsave("KP_plot_merged_data.png", plot=last_plot(), width = 8, height = 5)
+
+```
+
+
