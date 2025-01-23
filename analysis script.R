@@ -240,7 +240,7 @@ cv_modelhist <- train(
   trControl = trainControl(method = "cv", number = 10)
 )
 
-write.csv(print(summary(cv_modelhist)))
+summary(cv_modelhist)
 
 set.seed(123)
 cv_model2 <- train(
@@ -288,12 +288,12 @@ summary(
     )
   ))
 
-pred_class <- predict(cv_model2, churn_train)
+pred_class <- predict(cv_model3, churn_test)
 
 # create confusion matrix
 confusionMatrix(
   data = pred_class,
-  reference = churn_train$Metastasis
+  reference = churn_test$Metastasis
 )
 
 # Checking assumptions ----------------------------------------------------
