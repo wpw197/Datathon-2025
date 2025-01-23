@@ -1,0 +1,422 @@
+,Patient.ID,study,Sex,Age,Overall_survival_months,ethnicity,histology,smoking_status,Metastasis,KRAS,TP53,KMT2D,STK11,SMARCA4,KEAP1,FAT1,NF1,CDKN2A,PTPRB,RBM10,PIK3CA,ARID1A,CREBBP,COL5A2,CUXI,SETD2,FBXW7,EGFR,ARHGAP35,Oncotree.Code
+1216,CRUK0001,TRACERx,Male,84,36.79369251,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,LUAD
+1207,CRUK0002,TRACERx,Male,81,62.45072273,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1154,CRUK0003,TRACERx,Female,78,75.68988173,White,Adenocarcinoma,Never Smoked,Yes,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,LUAD
+1151,CRUK0004,TRACERx,Female,69,43.46254928,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,LUAD
+1135,CRUK0005,TRACERx,Female,74,21.32063075,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,1,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,LUAD
+1227,CRUK0006,TRACERx,Male,66,59.49408673,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,LUAD
+1229,CRUK0007,TRACERx,Male,69,73.71879106,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,LUAD
+1178,CRUK0008,TRACERx,Male,72,63.5348226,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1222,CRUK0009,TRACERx,Male,55,36.13666229,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,LUAD
+1206,CRUK0010,TRACERx,Male,68,74.27726675,White,Adenocarcinoma,Never Smoked,Yes,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,LUAD
+1244,CRUK0011,TRACERx,Female,71,62.22076216,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,LUAD
+1215,CRUK0012,TRACERx,Male,65,59.13272011,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,LUAD
+1238,CRUK0013,TRACERx,Male,67,30.48620237,White,NA,Smoker/Ex-Smoker,Yes,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Other
+1246,CRUK0014,TRACERx,Male,66,61.92509855,White,Adenocarcinoma,Never Smoked,No,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1144,CRUK0015,TRACERx,Female,73,58.31143233,White,Adenocarcinoma,Never Smoked,No,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,LUAD
+1160,CRUK0016,TRACERx,Male,70,58.57424442,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,1,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,LUAD
+1166,CRUK0017,TRACERx,Female,77,43.19973719,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,1,0,0,0,1,0,0,0,1,1,0,0,0,1,0,0,0,0,0,LUAD
+1161,CRUK0018,TRACERx,Male,59,60.70959264,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,LUAD
+1241,CRUK0019,TRACERx,Female,54,65.27595269,White,Adenocarcinoma,Never Smoked,No,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,LUAD
+1175,CRUK0020,TRACERx,Male,83,50.75558476,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,1,0,0,1,0,0,0,0,0,1,0,1,1,0,0,0,1,0,LUAD
+1168,CRUK0021,TRACERx,Female,83,46.28777924,White,Adenocarcinoma,Never Smoked,Yes,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,LUAD
+1264,CRUK0022,TRACERx,Female,65,30.42049934,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,LUAD
+1184,CRUK0023,TRACERx,Male,68,32.6544021,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1146,CRUK0024,TRACERx,Male,68,60.21681997,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,LUAD
+1226,CRUK0025,TRACERx,Male,52,60.41392904,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,LUAD
+1155,CRUK0026,TRACERx,Female,67,62.0565046,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,LUAD
+1176,CRUK0027,TRACERx,Female,58,59.46123522,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1139,CRUK0028,TRACERx,Female,78,60.34822602,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,LUAD
+1182,CRUK0029,TRACERx,Male,56,2.890932983,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1193,CRUK0030,TRACERx,Male,75,59.75689882,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,LUAD
+1173,CRUK0032,TRACERx,Male,73,57.45729304,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,0,LUAD
+1220,CRUK0033,TRACERx,Male,68,60.77529566,White,Adenocarcinoma,Never Smoked,No,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1128,CRUK0034,TRACERx,Female,68,60.74244415,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,LUAD
+1185,CRUK0035,TRACERx,Male,75,77.16819974,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1214,CRUK0036,TRACERx,Female,64,50.49277267,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,1,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,LUAD
+1245,CRUK0037,TRACERx,Male,83,49.47437582,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,1,0,1,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0,LUAD
+1198,CRUK0038,TRACERx,Female,81,66.06438896,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1156,CRUK0039,TRACERx,Male,70,37.9434954,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1219,CRUK0040,TRACERx,Female,62,63.20630749,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,LUAD
+1213,CRUK0041,TRACERx,Male,72,6.701708279,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1150,CRUK0042,TRACERx,Male,68,43.13403417,White,Adenocarcinoma,Never Smoked,No,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,LUAD
+1195,CRUK0043,TRACERx,Male,68,62.3521682,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1187,CRUK0044,TRACERx,Female,59,15.14454665,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,LUAD
+1132,CRUK0045,TRACERx,Male,85,32.39159001,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1208,CRUK0046,TRACERx,Female,61,31.27463863,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,LUAD
+1217,CRUK0047,TRACERx,Female,72,60.18396846,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,LUAD
+1235,CRUK0048,TRACERx,Female,76,43.29829172,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,LUAD
+1224,CRUK0049,TRACERx,Female,66,63.43626807,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,LUAD
+1188,CRUK0050,TRACERx,Male,55,29.89487516,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1149,CRUK0051,TRACERx,Male,76,43.92247043,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,LUAD
+1202,CRUK0052,TRACERx,Female,59,70.56504599,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,1,1,1,0,1,0,1,1,0,0,0,1,0,0,0,0,0,0,1,LUAD
+1165,CRUK0053,TRACERx,Male,68,60.74244415,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,1,1,0,LUAD
+1225,CRUK0054,TRACERx,Female,76,57.98291721,White,Adenocarcinoma,Never Smoked,No,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,LUAD
+1174,CRUK0055,TRACERx,Male,54,54.66491459,Black,Adenocarcinoma,Smoker/Ex-Smoker,No,0,0,0,0,0,0,1,1,0,1,0,0,0,0,1,0,0,0,0,0,LUAD
+1262,CRUK0056,TRACERx,Female,71,31.80026281,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,LUAD
+1153,CRUK0057,TRACERx,Female,67,79.86202365,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,LUAD
+1205,CRUK0058,TRACERx,Male,74,61.49802891,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,LUAD
+1204,CRUK0059,TRACERx,Female,79,59.6911958,White,Adenocarcinoma,Never Smoked,No,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1172,CRUK0060,TRACERx,Female,48,60.74244415,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,0,0,1,0,1,1,0,0,0,0,0,0,1,0,0,0,1,0,LUAD
+1183,CRUK0061,TRACERx,Male,82,60.61103811,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1163,CRUK0062,TRACERx,Male,57,23.78449409,Other,NA,Smoker/Ex-Smoker,Yes,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUSC
+1134,CRUK0063,TRACERx,Male,65,28.18659658,White,NA,Smoker/Ex-Smoker,Yes,0,1,0,0,0,0,0,1,1,0,1,1,0,0,0,0,0,1,1,0,LUSC
+1257,CRUK0064,TRACERx,Male,68,59.78975033,White,NA,Smoker/Ex-Smoker,No,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,LUSC
+1148,CRUK0065,TRACERx,Male,76,14.61892247,White,NA,Smoker/Ex-Smoker,Yes,0,1,1,0,0,0,1,0,0,0,1,1,1,0,0,0,0,0,0,0,LUSC
+1142,CRUK0066,TRACERx,Male,78,60.282523,White,NA,Smoker/Ex-Smoker,No,0,1,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,1,0,LUSC
+1190,CRUK0067,TRACERx,Male,63,63.73193167,White,NA,Smoker/Ex-Smoker,No,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUSC
+1167,CRUK0068,TRACERx,Female,68,34.88830486,White,NA,Smoker/Ex-Smoker,No,0,1,1,0,0,0,1,1,0,0,0,1,0,0,0,0,1,0,0,1,LUSC
+1158,CRUK0069,TRACERx,Female,73,60.64388962,White,NA,Smoker/Ex-Smoker,No,1,1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,LUSC
+1186,CRUK0070,TRACERx,Male,56,55.61760841,White,NA,Smoker/Ex-Smoker,No,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,LUSC
+1138,CRUK0071,TRACERx,Male,66,60.80814717,White,NA,Smoker/Ex-Smoker,No,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,LUSC
+1179,CRUK0072,TRACERx,Male,67,61.33377135,White,NA,Smoker/Ex-Smoker,No,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,LUSC
+1197,CRUK0073,TRACERx,Female,79,27.56241787,White,NA,Smoker/Ex-Smoker,Yes,0,1,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,LUSC
+1263,CRUK0074,TRACERx,Male,80,46.22207622,White,NA,Smoker/Ex-Smoker,Yes,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,LUSC
+1230,CRUK0075,TRACERx,Male,75,58.73850197,White,NA,Smoker/Ex-Smoker,No,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,LUSC
+1133,CRUK0076,TRACERx,Male,63,63.5348226,White,NA,Smoker/Ex-Smoker,No,0,1,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,LUSC
+1143,CRUK0077,TRACERx,Male,72,4.993429698,White,NA,Smoker/Ex-Smoker,Yes,0,1,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,LUSC
+1159,CRUK0078,TRACERx,Male,58,59.59264126,White,NA,Smoker/Ex-Smoker,No,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,LUSC
+1169,CRUK0079,TRACERx,Female,63,16.39290407,White,NA,Smoker/Ex-Smoker,No,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,LUSC
+1162,CRUK0080,TRACERx,Male,61,9.494086728,White,NA,Smoker/Ex-Smoker,Yes,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,LUSC
+1136,CRUK0081,TRACERx,Male,72,16.7542707,White,NA,Smoker/Ex-Smoker,No,0,1,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,LUSC
+1218,CRUK0083,TRACERx,Male,72,60.15111695,White,NA,Smoker/Ex-Smoker,No,0,1,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,LUSC
+1211,CRUK0084,TRACERx,Female,65,42.27989488,White,NA,Smoker/Ex-Smoker,No,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,LUSC
+1137,CRUK0085,TRACERx,Male,78,59.13272011,White,NA,Smoker/Ex-Smoker,No,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,LUSC
+1233,CRUK0086,TRACERx,Male,79,28.90932983,White,NA,Smoker/Ex-Smoker,No,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,LUSC
+1256,CRUK0087,TRACERx,Female,81,4.993429698,White,NA,Smoker/Ex-Smoker,Yes,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,LUSC
+1196,CRUK0088,TRACERx,Male,81,35.84099869,White,NA,Smoker/Ex-Smoker,Yes,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUSC
+1189,CRUK0089,TRACERx,Male,66,72.17477004,White,NA,Smoker/Ex-Smoker,No,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,LUSC
+1131,CRUK0090,TRACERx,Male,65,77.69382392,White,NA,Smoker/Ex-Smoker,Yes,0,1,0,0,1,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,LUSC
+1141,CRUK0091,TRACERx,Female,50,60.05256242,White,NA,Smoker/Ex-Smoker,No,0,1,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,LUSC
+1140,CRUK0092,TRACERx,Male,76,4.073587385,White,NA,Smoker/Ex-Smoker,Yes,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,LUSC
+1265,CRUK0093,TRACERx,Male,69,57.68725361,White,NA,Never Smoked,No,0,1,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,1,0,LUSC
+1248,CRUK0094,TRACERx,Male,34,9.888304862,White,NA,Never Smoked,Yes,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Other
+1164,CRUK0095,TRACERx,Female,59,60.41392904,White,Squamous Cell Carcinoma,Smoker/Ex-Smoker,No,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Other
+1191,CRUK0096,TRACERx,Female,74,5.091984231,White,Squamous Cell Carcinoma,Smoker/Ex-Smoker,Yes,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Other
+1252,CRUK0097,TRACERx,Male,76,47.3390276,White,NA,Smoker/Ex-Smoker,Yes,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,Other
+1152,CRUK0098,TRACERx,Male,55,1.11695138,White,NA,Smoker/Ex-Smoker,No,0,1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,Other
+1232,CRUK0099,TRACERx,Male,77,2.168199737,White,Squamous Cell Carcinoma,Smoker/Ex-Smoker,No,0,1,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Other
+1203,CRUK0100,TRACERx,Female,49,14.94743758,White,Large cell carcinoma,Smoker/Ex-Smoker,No,0,1,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,Other
+1212,CRUK0115,TRACERx,Male,91,0.164257556,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,LUAD
+1145,CRUK0117,TRACERx,Male,51,62.3521682,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,1,0,0,0,1,1,0,0,0,1,0,0,1,0,1,0,1,0,LUAD
+1209,CRUK0118,TRACERx,Female,68,3.285151117,White,NA,Smoker/Ex-Smoker,No,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUSC
+1177,CRUK0124,TRACERx,Male,78,50.72273325,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,LUAD
+1147,CRUK0128,TRACERx,Female,48,61.33377135,White,Adenocarcinoma,Never Smoked,No,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1199,CRUK0129,TRACERx,Female,64,14.35611038,White,NA,Smoker/Ex-Smoker,NA,0,0,0,0,0,0,0,1,0,1,0,1,1,0,0,0,0,0,0,0,Other
+1157,CRUK0134,TRACERx,Female,72,43.98817346,White,NA,Smoker/Ex-Smoker,No,0,1,0,0,0,0,1,0,0,0,1,0,1,0,0,0,1,0,0,0,LUSC
+1210,CRUK0142,TRACERx,Female,73,4.76346912,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,LUAD
+1170,CRUK0146,TRACERx,Male,78,52.49671485,White,NA,Smoker/Ex-Smoker,Yes,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,LUSC
+1129,CRUK0150,TRACERx,Male,81,44.74375821,White,Large cell carcinoma,Smoker/Ex-Smoker,No,0,1,1,0,0,0,1,0,0,1,0,0,0,1,0,0,1,0,0,0,Other
+1201,CRUK0157,TRACERx,Male,66,61.89224704,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,LUAD
+1130,CRUK0159,TRACERx,Male,60,73.06176084,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,LUAD
+1200,CRUK0173,TRACERx,Female,62,43.2325887,White,NA,Smoker/Ex-Smoker,NA,0,1,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,1,1,LUSC
+1192,CRUK0177,TRACERx,Male,71,45.99211564,White,NA,Smoker/Ex-Smoker,No,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,LUSC
+1223,CRUK0178,TRACERx,Male,59,2.168199737,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,LUAD
+1181,CRUK0182,TRACERx,Male,79,59.03416557,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1194,CRUK0183,TRACERx,Female,56,53.97503285,White,NA,Smoker/Ex-Smoker,No,0,1,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,LUSC
+1221,CRUK0193,TRACERx,Male,74,69.21813403,White,Adenocarcinoma,Never Smoked,No,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1171,CRUK0196,TRACERx,Male,62,0.032851511,White,NA,Smoker/Ex-Smoker,No,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Other
+1180,CRUK0199,TRACERx,Female,50,60.84099869,Other,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1261,CRUK0201,TRACERx,Female,80,17.73981603,White,NA,Smoker/Ex-Smoker,Yes,0,1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,1,0,0,LUSC
+1228,CRUK0202,TRACERx,Female,69,1.97109067,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,LUAD
+1267,CRUK0206,TRACERx,Male,71,29.04073587,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,1,0,1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,LUAD
+1285,CRUK0212,TRACERx,Female,63,65.11169514,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,LUAD
+1280,CRUK0213,TRACERx,Male,74,65.24310118,White,NA,Smoker/Ex-Smoker,No,0,1,0,0,0,1,0,0,1,0,0,1,1,0,1,0,0,0,0,0,LUSC
+1279,CRUK0218,TRACERx,Female,53,42.41130092,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,LUAD
+1249,CRUK0223,TRACERx,Male,62,0.328515112,White,NA,Smoker/Ex-Smoker,No,1,1,0,0,1,1,0,0,0,0,1,1,0,0,0,0,1,0,0,0,LUAD&LUSC
+1287,CRUK0227,TRACERx,Female,68,18.46254928,White,NA,Smoker/Ex-Smoker,Yes,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,LUSC
+1251,CRUK0232,TRACERx,Male,74,61.1695138,White,NA,Smoker/Ex-Smoker,No,0,1,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,LUSC
+1275,CRUK0233,TRACERx,Female,59,70.13797635,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,LUAD
+1236,CRUK0235,TRACERx,Male,76,31.80026281,Other,NA,Smoker/Ex-Smoker,Yes,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,LUSC
+1289,CRUK0236,TRACERx,Female,82,9.395532194,White,NA,Smoker/Ex-Smoker,No,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,LUSC
+1288,CRUK0240,TRACERx,Male,71,64.61892247,White,NA,Smoker/Ex-Smoker,No,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,LUSC
+1269,CRUK0241,TRACERx,Male,75,60.77529566,White,NA,Smoker/Ex-Smoker,No,0,1,1,1,0,0,1,0,0,1,0,0,0,0,0,0,0,1,1,0,LUSC
+1259,CRUK0242,TRACERx,Male,74,15.37450723,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,LUAD
+1284,CRUK0244,TRACERx,Male,55,30.81471748,White,NA,Smoker/Ex-Smoker,Yes,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,LUSC
+1260,CRUK0245,TRACERx,Female,64,38.76478318,White,Large cell carcinoma,Smoker/Ex-Smoker,Yes,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,Other
+1291,CRUK0246,TRACERx,Female,69,61.30091984,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1277,CRUK0247,TRACERx,Female,64,65.47306176,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,LUAD
+1271,CRUK0249,TRACERx,Female,78,24.50722733,White,Adenocarcinoma,Smoker/Ex-Smoker,NA,0,1,0,1,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,LUAD
+1290,CRUK0250,TRACERx,Female,71,43.75821288,White,NA,Smoker/Ex-Smoker,Yes,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,LUSC
+1239,CRUK0253,TRACERx,Female,65,59.49408673,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,LUAD
+1278,CRUK0254,TRACERx,Male,70,65.34165572,White,NA,Smoker/Ex-Smoker,Yes,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,LUSC
+1282,CRUK0256,TRACERx,Male,75,54.76346912,White,NA,Smoker/Ex-Smoker,Yes,0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,1,LUSC
+1231,CRUK0259,TRACERx,Female,64,59.95400788,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1272,CRUK0260,TRACERx,Male,69,3.350854139,White,NA,Smoker/Ex-Smoker,No,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,LUSC
+1266,CRUK0267,TRACERx,Female,71,66.49145861,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,LUAD
+1270,CRUK0269,TRACERx,Male,72,69.08672799,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1234,CRUK0270,TRACERx,Male,68,59.85545335,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,LUAD
+1254,CRUK0271,TRACERx,Female,57,5.716162943,White,Squamous Cell Carcinoma,Smoker/Ex-Smoker,Yes,1,1,1,1,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,1,Other
+1243,CRUK0272,TRACERx,Male,92,5.124835742,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,LUAD
+1255,CRUK0273,TRACERx,Female,52,0.525624179,White,NA,Smoker/Ex-Smoker,No,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,Other
+1283,CRUK0274,TRACERx,Female,71,70.53219448,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,LUAD
+1258,CRUK0276,TRACERx,Female,76,59.39553219,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,LUAD
+1268,CRUK0278,TRACERx,Female,72,60.77529566,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1247,CRUK0279,TRACERx,Female,80,57.52299606,White,Adenocarcinoma,Never Smoked,No,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,LUAD
+1276,CRUK0280,TRACERx,Male,66,52.85808147,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1274,CRUK0284,TRACERx,Male,66,48.25886991,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1242,CRUK0285,TRACERx,Male,68,48.85019711,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,LUAD
+1281,CRUK0286,TRACERx,Female,85,54.33639947,White,NA,Smoker/Ex-Smoker,Yes,0,1,0,0,0,0,1,0,0,1,1,0,1,0,0,0,1,0,0,1,LUSC
+1253,CRUK0287,TRACERx,Female,61,42.24704336,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,1,0,0,1,0,0,0,0,1,1,0,0,0,1,0,0,0,1,0,LUAD
+1240,CRUK0290,TRACERx,Female,69,8.377135348,White,NA,Smoker/Ex-Smoker,Yes,0,1,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,LUSC
+1250,CRUK0293,TRACERx,Male,69,12.48357424,White,NA,Smoker/Ex-Smoker,No,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,LUSC
+1237,CRUK0296,TRACERx,Female,64,56.89881735,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1273,CRUK0297,TRACERx,Male,85,65.99868594,White,Adenocarcinoma,Never Smoked,No,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,LUAD
+1286,CRUK0299,TRACERx,Female,49,65.60446781,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,LUAD
+1317,CRUK0301,TRACERx,Female,67,10.54533509,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,1,0,0,0,1,0,1,0,0,1,0,1,0,0,0,0,0,0,0,LUAD
+1333,CRUK0303,TRACERx,Female,66,39.98028909,White,NA,Smoker/Ex-Smoker,Yes,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,0,LUSC
+1319,CRUK0305,TRACERx,Female,58,48.39027595,White,Adenocarcinoma,Never Smoked,No,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,LUAD
+1311,CRUK0308,TRACERx,Male,66,65.21024967,White,NA,Smoker/Ex-Smoker,No,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUSC
+1300,CRUK0310,TRACERx,Male,58,47.37187911,White,NA,Smoker/Ex-Smoker,No,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,LUSC
+1345,CRUK0311,TRACERx,Male,83,13.66622865,White,NA,Smoker/Ex-Smoker,Yes,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,LUSC
+1307,CRUK0312,TRACERx,Male,80,0.427069645,White,NA,Smoker/Ex-Smoker,No,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUSC
+1304,CRUK0313,TRACERx,Female,72,54.46780552,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,LUAD
+1324,CRUK0314,TRACERx,Male,74,56.34034166,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,LUAD
+1298,CRUK0315,TRACERx,Female,78,68.2325887,White,Squamous Cell Carcinoma,Smoker/Ex-Smoker,No,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Other
+1316,CRUK0316,TRACERx,Male,59,37.02365309,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,LUAD
+1331,CRUK0318,TRACERx,Male,80,61.43232589,White,NA,Smoker/Ex-Smoker,Yes,0,1,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,LUSC
+1330,CRUK0319,TRACERx,Female,67,66.59001314,South American,Adenocarcinoma,Smoker/Ex-Smoker,No,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,LUAD
+1343,CRUK0321,TRACERx,Male,74,63.07490145,White,NA,Smoker/Ex-Smoker,No,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUSC
+1315,CRUK0322,TRACERx,Male,70,13.10775296,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,LUAD
+1338,CRUK0324,TRACERx,Male,62,61.95795007,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,LUAD
+1314,CRUK0325,TRACERx,Male,77,9.099868594,White,NA,Smoker/Ex-Smoker,Yes,1,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,Other
+1308,CRUK0328,TRACERx,Male,69,50.52562418,White,NA,Smoker/Ex-Smoker,No,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,LUSC
+1297,CRUK0329,TRACERx,Male,69,62.31931669,White,NA,Smoker/Ex-Smoker,Yes,0,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,LUSC
+1302,CRUK0331,TRACERx,Male,54,15.04599212,White,NA,Never Smoked,Yes,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,LUSC
+1318,CRUK0333,TRACERx,Female,64,57.91721419,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,LUAD
+1335,CRUK0334,TRACERx,Female,69,60.70959264,White,NA,Smoker/Ex-Smoker,No,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,LUSC
+1337,CRUK0337,TRACERx,Female,62,63.96189225,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,1,0,1,0,0,1,1,0,0,0,0,1,1,1,0,1,1,0,0,LUAD
+1327,CRUK0339,TRACERx,Female,72,60.08541393,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1342,CRUK0343,TRACERx,Male,87,22.10906702,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1303,CRUK0344,TRACERx,Male,59,43.98817346,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,LUAD
+1340,CRUK0346,TRACERx,Male,85,48.09461235,White,NA,Smoker/Ex-Smoker,No,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,LUSC
+1322,CRUK0349,TRACERx,Female,75,18.85676741,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1334,CRUK0350,TRACERx,Male,71,16.68856767,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,0,0,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1299,CRUK0352,TRACERx,Male,68,31.7674113,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,1,0,1,0,0,0,1,0,0,1,0,0,0,1,1,0,0,0,1,0,LUAD
+1341,CRUK0359,TRACERx,Female,69,48.88304862,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1295,CRUK0361,TRACERx,Male,73,8.639947438,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,1,0,0,1,1,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,LUAD
+1305,CRUK0366,TRACERx,Female,62,49.77003942,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,LUAD
+1321,CRUK0367,TRACERx,Male,59,16.91852825,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,LUAD
+1328,CRUK0368,TRACERx,Male,81,54.56636005,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,0,1,0,0,1,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,LUAD
+1306,CRUK0369,TRACERx,Female,71,62.3521682,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,0,0,1,0,1,0,0,0,1,0,0,1,1,0,0,0,0,0,LUAD
+1312,CRUK0370,TRACERx,Female,74,59.36268068,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1301,CRUK0371,TRACERx,Male,87,46.94480946,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,LUAD
+1294,CRUK0372,TRACERx,Female,74,54.86202365,White,NA,Smoker/Ex-Smoker,No,1,1,0,0,1,0,1,0,1,0,0,0,0,0,0,0,1,0,1,0,LUAD&Other
+1339,CRUK0373,TRACERx,Male,62,40.47306176,White,NA,Smoker/Ex-Smoker,No,0,0,1,0,0,0,1,0,0,0,1,0,1,0,1,0,0,0,0,0,LUSC
+1309,CRUK0375,TRACERx,Male,80,0.755584757,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,LUAD
+1323,CRUK0377,TRACERx,Female,65,7.063074901,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,1,1,1,0,0,1,1,0,0,1,0,0,0,0,1,0,0,0,0,0,LUAD
+1320,CRUK0379,TRACERx,Male,68,15.11169514,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1296,CRUK0380,TRACERx,Female,57,63.69908016,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,LUAD
+1293,CRUK0381,TRACERx,Female,52,63.8304862,White,NA,Smoker/Ex-Smoker,No,0,1,1,0,0,0,0,1,0,1,1,0,1,1,0,0,0,0,0,0,LUSC
+1329,CRUK0382,TRACERx,Male,91,51.11695138,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,LUAD
+1336,CRUK0384,TRACERx,Male,66,60.282523,White,NA,Smoker/Ex-Smoker,No,0,1,1,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,1,0,LUSC
+1344,CRUK0385,TRACERx,Female,57,20.3022339,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,0,1,1,0,0,1,1,0,0,0,1,0,0,1,1,0,0,1,0,0,LUAD
+1313,CRUK0386,TRACERx,Male,80,40.21024967,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,LUAD
+1310,CRUK0388,TRACERx,Male,79,14.58607096,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,LUAD
+1292,CRUK0392,TRACERx,Male,67,64.38896189,White,NA,Smoker/Ex-Smoker,No,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,LUSC
+1326,CRUK0393,TRACERx,Female,81,11.30091984,Other,NA,Smoker/Ex-Smoker,No,0,1,0,0,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,LUSC
+1325,CRUK0394,TRACERx,Male,74,18.79106439,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,LUAD
+1332,CRUK0396,TRACERx,Female,68,32.75295664,White,NA,Smoker/Ex-Smoker,No,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,LUSC
+1362,CRUK0401,TRACERx,Male,60,62.81208936,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1376,CRUK0402,TRACERx,Male,80,58.60709593,White,NA,Smoker/Ex-Smoker,No,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,LUSC
+1382,CRUK0403,TRACERx,Male,90,6.274638633,White,NA,Smoker/Ex-Smoker,No,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,LUSC
+1377,CRUK0404,TRACERx,Female,63,62.6478318,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1394,CRUK0406,TRACERx,Female,82,8.377135348,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1371,CRUK0407,TRACERx,Male,59,61.1695138,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,LUAD
+1354,CRUK0408,TRACERx,Male,63,62.08935611,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1349,CRUK0409,TRACERx,Male,65,15.34165572,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,LUAD
+1358,CRUK0410,TRACERx,Female,71,31.37319317,White,Adenocarcinoma,Never Smoked,Yes,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,LUAD
+1359,CRUK0412,TRACERx,Male,50,20.92641261,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,LUAD
+1365,CRUK0413,TRACERx,Female,85,44.34954008,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,LUAD
+1364,CRUK0415,TRACERx,Female,69,15.83442838,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,LUAD
+1387,CRUK0416,TRACERx,Male,70,3.252299606,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,0,1,0,0,0,1,0,0,1,0,1,1,0,0,0,1,0,1,0,LUAD
+1391,CRUK0418,TRACERx,Male,72,18.00262812,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,0,0,1,0,1,0,1,1,1,1,0,1,1,1,1,0,1,0,1,1,LUAD
+1379,CRUK0419,TRACERx,Male,77,12.61498029,White,NA,Smoker/Ex-Smoker,Yes,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,LUSC
+1360,CRUK0420,TRACERx,Male,73,43.79106439,White,Squamous Cell Carcinoma,Smoker/Ex-Smoker,No,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Other
+1357,CRUK0422,TRACERx,Male,69,4.632063075,White,Squamous Cell Carcinoma,Smoker/Ex-Smoker,No,0,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,1,Other
+1395,CRUK0423,TRACERx,Male,79,0.821287779,White,NA,Smoker/Ex-Smoker,No,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,LUSC
+1373,CRUK0424,TRACERx,Male,69,49.01445466,White,NA,Smoker/Ex-Smoker,No,0,1,1,0,0,1,0,1,0,0,0,0,1,0,1,0,0,0,0,0,LUSC
+1388,CRUK0428,TRACERx,Female,66,40.90013141,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,LUAD
+1348,CRUK0430,TRACERx,Female,55,59.82260184,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,LUAD
+1372,CRUK0431,TRACERx,Male,63,17.0499343,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1370,CRUK0434,TRACERx,Female,70,13.73193167,White,NA,Smoker/Ex-Smoker,Yes,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,Other
+1369,CRUK0441,TRACERx,Female,64,2.431011827,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1398,CRUK0444,TRACERx,Male,64,10.08541393,White,NA,Smoker/Ex-Smoker,Yes,0,1,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,LUSC
+1384,CRUK0445,TRACERx,Female,71,24.4086728,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,LUAD
+1375,CRUK0447,TRACERx,Female,64,36.33377135,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,1,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,LUAD
+1363,CRUK0448,TRACERx,Male,77,58.04862024,White,NA,Smoker/Ex-Smoker,Yes,0,1,1,0,0,1,0,0,1,0,0,1,0,0,0,0,1,1,1,1,LUSC
+1381,CRUK0450,TRACERx,Female,60,48.39027595,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,1,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,LUAD
+1374,CRUK0451,TRACERx,Male,49,25.19710907,White,NA,Smoker/Ex-Smoker,Yes,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,LUSC
+1367,CRUK0452,TRACERx,Male,79,8.015768725,White,NA,Smoker/Ex-Smoker,Yes,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUSC
+1397,CRUK0453,TRACERx,Female,57,29.92772668,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,0,1,1,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,LUAD
+1356,CRUK0456,TRACERx,Female,60,21.35348226,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,1,0,1,0,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,LUAD
+1347,CRUK0460,TRACERx,Female,60,42.50985545,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,LUAD
+1389,CRUK0462,TRACERx,Female,77,54.46780552,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,0,1,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0,LUAD
+1378,CRUK0463,TRACERx,Female,69,54.17214192,White,NA,Smoker/Ex-Smoker,No,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,LUSC
+1392,CRUK0465,TRACERx,Female,71,53.8107753,Middle eastern,NA,Smoker/Ex-Smoker,No,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUSC
+1383,CRUK0467,TRACERx,Female,59,13.8304862,White,NA,Smoker/Ex-Smoker,Yes,1,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,LUSC
+1346,CRUK0468,TRACERx,Male,73,5.321944809,White,NA,Smoker/Ex-Smoker,Yes,0,1,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,LUSC
+1393,CRUK0471,TRACERx,Female,55,56.53745072,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,0,0,1,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,LUAD
+1368,CRUK0472,TRACERx,Female,67,46.02496715,White,NA,Smoker/Ex-Smoker,Yes,0,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,LUSC
+1390,CRUK0476,TRACERx,Female,72,36.59658344,White,NA,Smoker/Ex-Smoker,No,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Other
+1396,CRUK0478,TRACERx,Male,73,43.16688568,White,NA,Smoker/Ex-Smoker,Yes,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUSC
+1351,CRUK0479,TRACERx,Female,79,47.14191853,White,Adenocarcinoma,Never Smoked,No,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1380,CRUK0484,TRACERx,Male,67,27.82522996,White,NA,Smoker/Ex-Smoker,Yes,0,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,Other
+1386,CRUK0485,TRACERx,Male,76,47.79894875,White,NA,Never Smoked,No,0,1,1,0,1,0,1,0,1,0,0,0,0,0,1,0,0,0,0,1,LUSC
+1385,CRUK0486,TRACERx,Female,65,48.25886991,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,0,0,0,1,0,0,0,0,1,1,0,0,1,0,0,0,0,0,LUAD
+1352,CRUK0487,TRACERx,Male,77,0.361366623,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,LUAD
+1361,CRUK0488,TRACERx,Male,73,39.78318003,White,NA,Smoker/Ex-Smoker,No,1,1,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,LUSC
+1350,CRUK0492,TRACERx,Female,59,64.25755585,Asian,Adenocarcinoma,Never Smoked,No,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,LUAD
+1353,CRUK0495,TRACERx,Female,70,8.968462549,White,NA,Smoker/Ex-Smoker,Yes,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,1,0,LUSC
+1366,CRUK0496,TRACERx,Female,78,2.825229961,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,0,0,1,1,0,0,0,0,1,1,0,1,0,1,0,0,0,0,0,LUAD
+1355,CRUK0497,TRACERx,Male,71,12.81208936,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,1,1,0,0,0,0,1,1,0,1,0,0,0,1,0,0,0,0,0,0,LUAD
+1432,CRUK0503,TRACERx,Male,68,46.35348226,White,NA,Smoker/Ex-Smoker,No,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,LUSC
+1443,CRUK0504,TRACERx,Female,63,55.84756899,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1422,CRUK0505,TRACERx,Male,65,40.44021025,White,NA,Smoker/Ex-Smoker,No,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,LUSC
+1406,CRUK0510,TRACERx,Female,62,46.61629435,White,NA,Smoker/Ex-Smoker,No,0,1,0,1,0,0,0,0,1,1,0,1,0,1,1,0,0,0,0,0,LUSC
+1455,CRUK0511,TRACERx,Female,71,36.00525624,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1447,CRUK0512,TRACERx,Female,75,55.35479632,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,0,1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,LUAD
+1442,CRUK0513,TRACERx,Male,84,35.41392904,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1404,CRUK0514,TRACERx,Male,69,52.23390276,White,Squamous Cell Carcinoma,Smoker/Ex-Smoker,Yes,0,1,1,0,0,1,1,0,1,1,1,1,1,0,1,0,0,0,1,0,Other
+1437,CRUK0516,TRACERx,Male,60,8.245729304,White,NA,Smoker/Ex-Smoker,Yes,0,1,0,0,1,0,0,1,0,1,0,0,0,1,0,0,1,0,0,0,LUSC
+1452,CRUK0518,TRACERx,Male,60,57.26018397,White,NA,Smoker/Ex-Smoker,No,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,LUSC
+1418,CRUK0519,TRACERx,Male,51,43.65965834,Other,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,LUAD
+1450,CRUK0520,TRACERx,Male,61,39.25755585,White,Adenocarcinoma,Never Smoked,No,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,LUAD
+1446,CRUK0521,TRACERx,Male,72,58.70565046,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1453,CRUK0524,TRACERx,Male,66,11.00525624,White,NA,Never Smoked,Yes,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Other
+1407,CRUK0525,TRACERx,Female,52,38.89618922,White,Adenocarcinoma,Never Smoked,No,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,LUAD
+1421,CRUK0527,TRACERx,Female,70,54.53350854,White,NA,Smoker/Ex-Smoker,No,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,Other
+1435,CRUK0528,TRACERx,Male,73,54.59921156,White,NA,Smoker/Ex-Smoker,No,0,1,0,0,0,1,0,0,1,1,0,0,1,1,0,0,0,0,1,1,LUSC
+1429,CRUK0530,TRACERx,Male,40,19.87516426,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1420,CRUK0533,TRACERx,Male,68,55.02628121,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1414,CRUK0535,TRACERx,Male,64,38.17345598,White,NA,Smoker/Ex-Smoker,No,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,LUSC
+1424,CRUK0537,TRACERx,Female,57,47.73324573,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,LUAD
+1438,CRUK0540,TRACERx,Female,77,6.833114323,White,NA,Smoker/Ex-Smoker,Yes,0,1,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,LUSC
+1411,CRUK0541,TRACERx,Male,68,9.231274639,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1400,CRUK0542,TRACERx,Female,69,60.64388962,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,LUAD
+1449,CRUK0543,TRACERx,Female,71,20.63074901,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,1,0,1,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,1,0,LUAD
+1445,CRUK0548,TRACERx,Female,87,19.21813403,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,LUAD
+1431,CRUK0549,TRACERx,Female,64,50.78843627,White,NA,Smoker/Ex-Smoker,No,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,LUSC
+1434,CRUK0550,TRACERx,Male,79,9.329829172,White,NA,Smoker/Ex-Smoker,No,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,LUSC
+1456,CRUK0552,TRACERx,Female,73,21.74770039,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,LUAD
+1451,CRUK0553,TRACERx,Female,76,41.03153745,White,NA,Smoker/Ex-Smoker,No,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUSC
+1427,CRUK0555,TRACERx,Male,74,9.198423127,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,LUAD&LUSC
+1425,CRUK0556,TRACERx,Female,73,50.91984231,White,NA,Smoker/Ex-Smoker,No,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUSC
+1419,CRUK0557,TRACERx,Male,64,12.12220762,White,NA,Smoker/Ex-Smoker,Yes,1,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,Other
+1436,CRUK0559,TRACERx,Male,76,15.99868594,Middle eastern,Adenocarcinoma,Smoker/Ex-Smoker,Yes,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,LUAD
+1409,CRUK0563,TRACERx,Male,63,5.584756899,White,NA,Smoker/Ex-Smoker,Yes,0,1,0,1,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Other
+1415,CRUK0565,TRACERx,Male,63,56.11038108,White,Large cell carcinoma,Smoker/Ex-Smoker,No,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,Other
+1410,CRUK0566,TRACERx,Male,59,52.89093298,White,NA,Smoker/Ex-Smoker,No,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Other
+1454,CRUK0567,TRACERx,Female,53,18.75821288,Other,Adenocarcinoma,Smoker/Ex-Smoker,Yes,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,LUAD
+1444,CRUK0569,TRACERx,Male,72,44.74375821,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,0,1,1,0,0,0,0,0,1,1,0,0,1,1,0,0,0,0,0,LUAD
+1439,CRUK0570,TRACERx,Female,79,24.60578187,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,1,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,LUAD
+1426,CRUK0572,TRACERx,Male,73,11.1695138,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,LUAD
+1402,CRUK0573,TRACERx,Female,67,57.19448095,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,0,0,1,0,1,0,0,0,1,1,1,0,0,0,0,0,0,0,0,LUAD
+1401,CRUK0575,TRACERx,Female,70,55.32194481,White,NA,Smoker/Ex-Smoker,No,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,LUSC
+1416,CRUK0578,TRACERx,Male,65,59.82260184,White,Adenocarcinoma,Never Smoked,No,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1403,CRUK0579,TRACERx,Male,73,61.1695138,White,NA,Smoker/Ex-Smoker,No,0,1,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,1,LUSC
+1423,CRUK0581,TRACERx,Male,67,54.50065703,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1430,CRUK0582,TRACERx,Male,80,52.72667543,White,NA,Smoker/Ex-Smoker,No,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Other
+1405,CRUK0584,TRACERx,Male,68,25.5913272,White,NA,Smoker/Ex-Smoker,Yes,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUSC
+1428,CRUK0586,TRACERx,Male,69,12.6478318,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,0,0,1,1,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,LUAD&LUSC
+1441,CRUK0587,TRACERx,Male,68,9.231274639,White,Squamous Cell Carcinoma,Smoker/Ex-Smoker,Yes,1,1,0,1,0,1,0,0,0,0,0,1,0,0,0,0,1,1,0,0,Other
+1433,CRUK0588,TRACERx,Male,75,56.1760841,White,Adenocarcinoma,Never Smoked,No,1,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,LUAD
+1448,CRUK0589,TRACERx,Male,59,48.8173456,White,NA,Smoker/Ex-Smoker,No,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,LUSC
+1417,CRUK0590,TRACERx,Male,73,17.90407359,White,NA,Smoker/Ex-Smoker,Yes,0,1,1,0,1,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,LUSC
+1413,CRUK0592,TRACERx,Female,63,47.99605782,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1399,CRUK0594,TRACERx,Female,61,4.829172142,White,NA,Smoker/Ex-Smoker,No,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUSC
+1440,CRUK0596,TRACERx,Male,77,32.6544021,White,NA,Smoker/Ex-Smoker,No,0,1,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Other
+1412,CRUK0597,TRACERx,Male,79,51.80683311,White,NA,Smoker/Ex-Smoker,No,0,1,0,1,1,0,0,1,0,1,0,1,0,0,1,0,0,0,1,0,LUSC
+1408,CRUK0598,TRACERx,Female,67,61.10381078,White,Squamous Cell Carcinoma,Smoker/Ex-Smoker,No,1,1,1,0,0,0,1,0,0,0,1,0,0,0,0,0,1,0,1,0,Other
+1486,CRUK0603,TRACERx,Female,74,11.53088042,White,NA,Smoker/Ex-Smoker,No,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,1,LUSC
+1477,CRUK0606,TRACERx,Male,56,47.99605782,White,Large cell carcinoma,Smoker/Ex-Smoker,No,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Other
+1483,CRUK0607,TRACERx,Female,64,21.28777924,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,1,0,0,1,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,LUAD
+1476,CRUK0609,TRACERx,Female,72,8.245729304,White,NA,Smoker/Ex-Smoker,No,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,1,0,1,LUSC
+1458,CRUK0610,TRACERx,Male,63,18.75821288,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1494,CRUK0614,TRACERx,Female,59,53.84362681,White,Squamous Cell Carcinoma,Smoker/Ex-Smoker,No,0,1,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,Other
+1488,CRUK0616,TRACERx,Male,85,38.27201051,White,NA,Smoker/Ex-Smoker,No,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,LUSC
+1485,CRUK0617,TRACERx,Female,73,15.93298292,White,NA,Smoker/Ex-Smoker,Yes,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,LUSC
+1461,CRUK0620,TRACERx,Female,59,5.913272011,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,1,1,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,LUAD
+1467,CRUK0625,TRACERx,Male,68,42.11563732,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1474,CRUK0628,TRACERx,Female,65,30.2890933,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,LUAD
+1465,CRUK0633,TRACERx,Female,77,45.20367937,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1491,CRUK0634,TRACERx,Male,61,46.68199737,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,0,1,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,LUAD
+1487,CRUK0636,TRACERx,Female,83,23.71879106,White,NA,Smoker/Ex-Smoker,Yes,0,1,1,0,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,LUSC
+1470,CRUK0638,TRACERx,Male,81,13.86333771,White,NA,Smoker/Ex-Smoker,No,0,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,LUSC
+1480,CRUK0640,TRACERx,Female,60,3.482260184,White,NA,Smoker/Ex-Smoker,Yes,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,Other
+1473,CRUK0642,TRACERx,Female,76,29.82917214,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,1,1,0,1,0,0,1,0,1,0,1,0,1,1,0,1,0,1,1,LUAD
+1479,CRUK0643,TRACERx,Female,71,39.58607096,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1481,CRUK0644,TRACERx,Female,65,46.38633377,White,NA,Smoker/Ex-Smoker,No,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,LUSC
+1490,CRUK0649,TRACERx,Male,70,53.02233903,White,Large cell carcinoma,Smoker/Ex-Smoker,No,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Other
+1482,CRUK0650,TRACERx,Female,56,38.56767411,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1489,CRUK0655,TRACERx,Female,68,45.13797635,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,0,0,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,LUAD
+1464,CRUK0666,TRACERx,Male,78,15.63731932,Asian,Adenocarcinoma,Smoker/Ex-Smoker,Yes,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,LUAD
+1462,CRUK0667,TRACERx,Male,75,55.55190539,Middle eastern,Adenocarcinoma,Smoker/Ex-Smoker,No,1,1,0,1,0,1,0,0,0,1,1,0,0,0,0,0,1,0,0,0,LUAD
+1471,CRUK0674,TRACERx,Male,77,17.57555848,White,NA,Smoker/Ex-Smoker,Yes,0,0,1,0,0,0,1,0,0,0,0,0,0,1,1,0,1,1,0,0,LUSC
+1478,CRUK0678,TRACERx,Female,57,48.16031537,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,0,0,0,0,1,1,1,0,0,1,0,0,1,0,0,0,0,0,LUAD
+1492,CRUK0679,TRACERx,Female,70,50.06570302,White,NA,Smoker/Ex-Smoker,No,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUSC
+1484,CRUK0680,TRACERx,Male,60,55.55190539,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,LUAD
+1460,CRUK0681,TRACERx,Female,65,0.065703022,White,NA,Smoker/Ex-Smoker,No,0,1,1,0,1,0,1,0,0,1,0,1,0,1,1,0,1,0,1,0,LUSC
+1475,CRUK0682,TRACERx,Male,73,42.44415243,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,0,0,0,1,1,0,0,1,0,0,0,1,1,0,0,0,0,0,LUSC
+1457,CRUK0684,TRACERx,Female,64,35.21681997,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,LUAD
+1463,CRUK0686,TRACERx,Female,67,43.65965834,White,NA,Smoker/Ex-Smoker,No,0,1,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,LUSC
+1466,CRUK0687,TRACERx,Female,79,37.54927727,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1469,CRUK0691,TRACERx,Male,71,35.74244415,White,NA,Smoker/Ex-Smoker,No,0,1,0,0,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,1,LUSC
+1459,CRUK0692,TRACERx,Male,59,51.28120894,White,NA,Smoker/Ex-Smoker,No,0,1,1,0,0,0,1,0,0,0,1,0,0,1,1,0,0,0,0,0,Other
+1472,CRUK0693,TRACERx,Male,70,12.87779238,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,0,1,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,0,1,LUAD
+1468,CRUK0696,TRACERx,Female,60,55.91327201,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,0,0,0,0,1,0,0,1,1,0,0,1,0,0,0,0,0,1,LUAD
+1493,CRUK0698,TRACERx,Female,73,25.75558476,White,Large cell carcinoma,Smoker/Ex-Smoker,No,0,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Other
+1519,CRUK0702,TRACERx,Male,73,33.96846255,White,NA,Smoker/Ex-Smoker,Yes,0,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,Other
+1540,CRUK0704,TRACERx,Female,80,2.693823916,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,1,0,0,1,1,0,0,0,1,1,0,0,0,1,0,0,0,0,0,LUAD
+1508,CRUK0706,TRACERx,Female,82,10.84099869,White,Squamous Cell Carcinoma,Smoker/Ex-Smoker,Yes,0,1,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,Other
+1511,CRUK0707,TRACERx,Male,76,2.890932983,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,0,1,0,1,0,1,1,0,1,1,1,0,0,0,0,0,1,0,0,0,LUAD
+1495,CRUK0709,TRACERx,Female,60,36.43232589,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,LUAD
+1503,CRUK0710,TRACERx,Female,62,53.64651774,White,NA,Smoker/Ex-Smoker,No,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUSC
+1530,CRUK0714,TRACERx,Male,62,16.81997372,White,NA,Smoker/Ex-Smoker,Yes,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,LUSC
+1521,CRUK0715,TRACERx,Male,86,3.613666229,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1516,CRUK0717,TRACERx,Male,82,17.08278581,White,Squamous Cell Carcinoma,Smoker/Ex-Smoker,No,0,1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,Other
+1536,CRUK0718,TRACERx,Male,78,5.256241787,White,Squamous Cell Carcinoma,Never Smoked,Yes,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Other
+1535,CRUK0719,TRACERx,Male,80,6.143232589,White,NA,Smoker/Ex-Smoker,Yes,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Other
+1504,CRUK0721,TRACERx,Female,62,50.62417871,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,0,0,0,0,1,1,1,1,1,0,0,0,1,0,0,0,0,0,LUAD&LUSC
+1533,CRUK0722,TRACERx,Female,73,36.99080158,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1528,CRUK0729,TRACERx,Male,63,51.51116951,White,NA,Smoker/Ex-Smoker,No,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUSC
+1507,CRUK0730,TRACERx,Female,77,15.80157687,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,LUAD
+1500,CRUK0731,TRACERx,Male,78,44.34954008,White,NA,Smoker/Ex-Smoker,No,0,1,0,0,1,0,0,1,1,1,0,0,1,0,0,0,0,0,0,1,LUSC
+1532,CRUK0733,TRACERx,Male,66,0.262812089,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,LUAD
+1522,CRUK0734,TRACERx,Female,79,52.00394218,White,NA,Smoker/Ex-Smoker,No,1,1,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,LUSC
+1513,CRUK0735,TRACERx,Female,82,50.95269382,White,NA,Smoker/Ex-Smoker,No,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Other
+1517,CRUK0736,TRACERx,Male,80,25.85413929,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,0,0,1,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,LUAD
+1518,CRUK0737,TRACERx,Male,70,46.87910644,White,NA,Smoker/Ex-Smoker,No,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUSC
+1531,CRUK0738,TRACERx,Female,78,37.18791064,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,0,1,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,LUAD
+1537,CRUK0741,TRACERx,Female,61,50.13140604,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,LUAD
+1498,CRUK0742,TRACERx,Female,86,5.387647832,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,LUAD
+1541,CRUK0745,TRACERx,Male,75,47.37187911,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,LUAD
+1510,CRUK0748,TRACERx,Male,74,1.839684625,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,LUAD
+1512,CRUK0749,TRACERx,Male,79,33.70565046,White,NA,Smoker/Ex-Smoker,No,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,LUSC
+1502,CRUK0753,TRACERx,Male,78,37.87779238,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1527,CRUK0755,TRACERx,Female,58,51.7739816,Asian,Adenocarcinoma,Never Smoked,No,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1525,CRUK0756,TRACERx,Male,75,37.08935611,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1514,CRUK0761,TRACERx,Female,81,53.77792378,White,Adenocarcinoma,Never Smoked,No,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,LUAD
+1515,CRUK0762,TRACERx,Female,71,32.29303548,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,0,1,0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,LUAD
+1538,CRUK0764,TRACERx,Male,68,50.55847569,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1520,CRUK0766,TRACERx,Male,43,35.8738502,Other,Adenocarcinoma,Smoker/Ex-Smoker,No,1,1,1,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,LUAD
+1496,CRUK0768,TRACERx,Male,66,18.13403417,White,NA,Smoker/Ex-Smoker,No,0,1,1,0,0,1,1,0,0,0,0,0,0,1,0,0,1,1,0,0,LUSC
+1524,CRUK0769,TRACERx,Male,81,22.76609724,White,Large cell carcinoma,Smoker/Ex-Smoker,Yes,0,1,1,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,Other
+1534,CRUK0771,TRACERx,Male,39,14.61892247,Other,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,LUAD
+1523,CRUK0772,TRACERx,Male,64,23.85019711,White,NA,Smoker/Ex-Smoker,No,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,LUSC
+1505,CRUK0775,TRACERx,Female,84,35.93955322,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,0,1,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,LUAD
+1499,CRUK0781,TRACERx,Male,76,10.282523,White,NA,Smoker/Ex-Smoker,NA,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,LUSC
+1497,CRUK0784,TRACERx,Female,74,53.8107753,White,NA,Smoker/Ex-Smoker,No,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,LUSC
+1509,CRUK0787,TRACERx,Female,37,47.3390276,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1539,CRUK0788,TRACERx,Male,51,5.026281209,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1529,CRUK0793,TRACERx,Male,81,35.11826544,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,1,1,1,LUAD
+1526,CRUK0794,TRACERx,Male,76,50.49277267,White,Adenocarcinoma,Never Smoked,No,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1501,CRUK0795,TRACERx,Male,72,40.47306176,White,Adenocarcinoma,Smoker/Ex-Smoker,No,0,1,0,1,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,LUAD
+1506,CRUK0799,TRACERx,Female,85,33.37713535,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,1,0,0,1,0,1,0,0,0,1,1,0,1,0,0,0,0,0,0,LUAD
+1547,CRUK0810,TRACERx,Female,59,16.19579501,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUAD
+1545,CRUK0817,TRACERx,Male,64,14.88173456,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,0,1,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,LUAD
+1542,CRUK0861,TRACERx,Female,65,35.61103811,Middle eastern,NA,Smoker/Ex-Smoker,No,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,LUSC
+1546,CRUK0864,TRACERx,Female,78,47.10906702,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,LUAD
+1544,CRUK0872,TRACERx,Male,66,29.33639947,White,NA,Smoker/Ex-Smoker,Yes,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,LUSC
+1548,CRUK0881,TRACERx,Male,84,24.90144547,White,Adenocarcinoma,Smoker/Ex-Smoker,Yes,1,1,1,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0,LUAD
+1543,CRUK0893,TRACERx,Female,59,32.88436268,White,Adenocarcinoma,Smoker/Ex-Smoker,No,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,LUAD
