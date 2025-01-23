@@ -150,8 +150,8 @@ tracer_dta <- tracer_dta %>%
   mutate_at(vars(Metastasis), ~ifelse(Relapse_cat_new == 'Unknown Site', NA, . )) 
   
 msk_dta <- msk_dta %>% 
-  mutate(Metastasis = ifelse( Sample.Type == 'Primary' , "Yes", NA)) %>% 
-  mutate_at(vars(Metastasis), ~ifelse(Sample.Type == 'Metastasis', "No", .)) %>% 
+  mutate(Metastasis = ifelse( Sample.Type == 'Primary' , "No", NA)) %>% 
+  mutate_at(vars(Metastasis), ~ifelse(Sample.Type == 'Metastasis', "Yes", .)) %>% 
   mutate_at(vars(Metastasis), ~ifelse(Sample.Type == 'Unknown', NA, .))
 
 # smoking status
@@ -228,7 +228,8 @@ cv_model1 <- train(
   family = "binomial",
   trControl = trainControl(method = "cv", number = 10)
 )
-summary(cv_model1)
+print(summary(cv_model1))
+
 
 cv_modelhist <- train(
   Metastasis ~ histology, 
@@ -238,7 +239,8 @@ cv_modelhist <- train(
   family = "binomial",
   trControl = trainControl(method = "cv", number = 10)
 )
-summary(cv_modelhist)
+
+write.csv(print(summary(cv_modelhist)))
 
 set.seed(123)
 cv_model2 <- train(
@@ -271,7 +273,7 @@ cv_model4 <- train(
   family = "binomial",
   trControl = trainControl(method = "cv", number = 10)
 )
-summary(cv_model4)
+write.csv(print(summary(cv_model4)), 'Output/Logistic_Regression_Model.csv')
 
 # extract out of sample performance measures
 
