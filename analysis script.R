@@ -168,18 +168,31 @@ tracer_dta <- tracer_dta %>%
 msk_dta<-msk_dta %>% 
   mutate(histology=ifelse(Histology=='Other', 'Large cell carcinoma', Histology))
 
-tracer_dta<-tracer_dta %>% 
-  filter(histology_lesion1!='Carcinosarcoma'|histology_lesion1!='Collision LUAD and LUSC'|
-           histology_lesion1!='combined LUAD and LCNEC'|
-           histology_lesion1!='Pleomorphic carcinoma') %>% 
-  mutate(histology = ifelse(histology_lesion1=='Adenosquamous carcinoma', 
-                          'Squamous Cell Carcinoma',NA)) %>% 
-  mutate_at(vars(histology), ~ifelse(histology_lesion1=='Invasive adenocarcinoma', 
-                                     'Adenocarcinoma', .)) %>% 
-  mutate_at(vars(histology), ~ifelse(histology_lesion1=='Invasive adenocarcinoma', 
-                                     'Adenocarcinoma', .)) %>% 
-  mutate_at(vars(histology), ~ifelse(histology_lesion1=='LCNEC', 
-                                     'Large cell carcinoma', .))
+#tracer_dta<-tracer_dta %>% 
+#  filter(histology_lesion1!='Carcinosarcoma'|histology_lesion1!='Collision LUAD and LUSC'|
+#           histology_lesion1!='combined LUAD and LCNEC'|
+#           histology_lesion1!='Pleomorphic carcinoma') %>% 
+#  mutate(histology = ifelse(histology_lesion1=='Adenosquamous carcinoma', 
+#                          'Squamous Cell Carcinoma',NA)) %>% 
+#  mutate_at(vars(histology), ~ifelse(histology_lesion1=='Invasive adenocarcinoma', 
+#                                     'Adenocarcinoma', .)) %>% 
+#  mutate_at(vars(histology), ~ifelse(histology_lesion1=='Invasive adenocarcinoma', 
+#                                     'Adenocarcinoma', .)) %>% 
+#  mutate_at(vars(histology), ~ifelse(histology_lesion1=='LCNEC', 
+#                                     'Large cell carcinoma', .))
+
+tracer_dta <- tracer_dta %>% 
+  filter(histology_multi_full_genomically.confirmed != 'LUAD&LUSC'|
+           histology_multi_full_genomically.confirmed != 'LUAD&Other') %>% 
+  mutate(histology = ifelse(histology_multi_full_genomically.confirmed == 'LUAD'|
+                              histology_multi_full_genomically.confirmed == 'LUADx2' |
+                              histology_multi_full_genomically.confirmed == 'LUADx3', 
+  'Adenocarcinoma', NA)) %>% 
+  mutate_at(vars(histology), ~ifelse(histology_multi_full_genomically.confirmed == 'LUSC',
+                                     'Squamous Cell Carcinoma',.)) %>% 
+  mutate_at(vars(histology), ~ifelse(histology_multi_full_genomically.confirmed == 'Other',
+                                     'Other',.))
+
 
 msk_dta <- msk_dta %>%
   rename(Age = Patient.Current.Age, Overall_survival_months= Overall.Survival..Months.) %>% 
